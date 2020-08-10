@@ -1,0 +1,336 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    background: #c01e1e;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.menu-nav{
+    display: flex;
+    list-style: none;
+    padding: 23px;
+    margin: 0;
+}
+
+.menu-nav a{
+    text-decoration: none;
+    padding: 23px;
+    color: beige;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.menu-nav a:hover{
+    background: rgb(255, 6, 6);
+    border-radius: 15px;
+    border-bottom: groove rgb(255, 6, 6);
+    color:yellow;
+    border: 2px solid beige;
+}
+
+.capa{
+    background-image: url(../felipetoledo2020.github.io/imagem/ods4.png);
+    min-height: 100vh;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.capa h1{
+    max-width: 500px;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: yellow;
+    text-shadow: 3px 3px #000000;
+}
+
+.capa h2{
+    max-width: 500px;
+    font-size: 30px;
+    margin-top: 0;
+    border-top: 3px solid rgb(68, 236, 180);
+    color: beige;
+}
+
+.capa .botao{
+    border: 2px solid white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.capa .botao:hover{
+    background-color: rgb(255, 94, 0);
+    border: 0px;
+}
+
+.menu1{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 0px 20px 0px;
+    background-color: red;
+}
+
+.video{
+    flex: 50%;
+    left: 100%;
+    position: left;
+    background-color: red;
+    padding: 20px;
+    float: left;
+}
+
+.texto h1{
+    font-size:40px;
+    text-align: center;
+    color: turquoise;
+    margin-top: 0px;
+}
+
+.justificado{
+    text-align: justify;
+    max-width: 100%;
+}
+
+.centralizado h1{
+    text-align: center;
+    background-color: rgb(173, 38, 20);
+    color: turquoise;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.meio h1{
+    text-align: center;
+    background-color: rgb(169, 68, 236);
+    color: turquoise;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.meio{
+    text-align: center;
+    background-color: rgb(169, 68, 236);
+    color: turquoise;
+}
+
+.texto{
+    flex: 70%;
+    padding: 0px 30px;
+    float: left;
+    color: beige;
+    font-size: 12px;
+    position: relative;
+}
+
+.icones{
+    width: 51px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.icones:hover{
+    background-color: lightgreen;
+    transition: 0.3s;
+}
+
+#menu2{
+    padding: 20px;
+    background-color: rgb(173, 38, 20);
+    color: rgb(81, 255, 0);
+    display: flex;
+}
+
+.colunaquatro{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 25%;
+    color: beige;
+    text-align: center;
+}
+
+.menu3{
+    padding: 0px;
+    color: turquoise;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(169, 68, 236);
+    display:flex;
+}
+
+.object{
+    text-align: center;
+    justify-content: center;
+    flex: 20%;
+}
+
+.tema{
+    width: 300px;
+}
+
+.centro{
+    text-align: center;
+}
+
+.cvaga{
+    text-align: center;
+    color: beige
+}
+
+#menu4{
+    padding: 20px;
+    background-color: rgb(10, 23, 202);
+    color: yellow;
+}
+
+.menu4{
+    padding: 0px;
+    background-color: rgb(10, 23, 202);
+    color: turquoise;
+    text-align: center;
+}
+
+.menu4 h1{
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.menu4 h2{
+    padding: 10px;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.final{
+    background-color: aqua;
+    border-radius: 100px;
+    text-align: center;
+    border: #ffffff solid;
+    font-size: 14px;
+    padding: 0px;
+}
+
+.final a:hover{
+    color: blue;
+}
+
+.final a{
+    text-decoration: none;
+    color: black;
+}
+
+.eu{
+    flex: 50%;
+    left: 100%;
+    text-align: center;
+}
+
+.mais{
+    text-align: end;
+    display: flex;
+}
+
+.redes{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media (max-width: 760px){
+
+    .flex{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .menu-nav{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu-nav a{
+        padding: 2px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .capa{
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .capa h1{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .capa h2{
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .menu1{
+        flex-direction: column;
+    }
+
+    .video{
+        flex:1%;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .texto{
+        padding: 20px;
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .justificado{
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .colunaquatro{
+        width: 80%;
+        padding: 0px;
+        margin: 10px auto;
+        flex-direction: column;
+    }
+
+    #menu2{
+        flex-direction: column;
+    }
+
+    .menu3{
+        flex-direction: column;
+    }
+
+    .menu4{
+        flex-direction: column;
+    }
+
+}
